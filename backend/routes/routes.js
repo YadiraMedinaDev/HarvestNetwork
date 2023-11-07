@@ -1,5 +1,5 @@
 import express from "express";
-import { getFarmers, getFarmer, createFarmer, updateFarmer, deleteFarmer } from "../controllers/FarmerConroller.js";
+import { getFarmers, getFarmer, createFarmer, updateFarmer, deleteFarmer } from "../controllers/FarmerController.js";
 
 const router = express.Router();
 
