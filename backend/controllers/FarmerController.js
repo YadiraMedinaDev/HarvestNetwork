@@ -5,7 +5,6 @@ import { CityModel } from "../models/CityModel.js";
 export const getFarmers = async (req, res) => {
     try {
         const farmers = await FarmerModel.find()
-
         res.status(200).json(farmers)
     } catch (error) {
         res.status(500).json({ message: error.message })
