@@ -10,10 +10,7 @@ app.use(cors({ origin: 'http://localhost:4200' }));
 app.use(cors())
 app.use(express.json())
 app.use("/api/farmers", router)
-
-app.get("/ddd", (req, res) => {
-    res.send("Hola mundo")
-});
+// app.use("/api/products", router)
 
 const PORT = process.env.PORT;
 const MONGO_URI = process.env.MONGO_URI;

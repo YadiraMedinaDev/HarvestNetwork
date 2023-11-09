@@ -14,7 +14,7 @@ const citySchema = new Schema(
             type: String,
         },
         id_department: {
-            type: Schema.ObjectId,
+            type: String,
             ref: 'departments',
         }
     },
